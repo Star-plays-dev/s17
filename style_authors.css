@@ -81,33 +81,5 @@ h1 {
     text-shadow: 0.1rem 0.1rem 0 #ffffff4a;
 }
 
-#telega {
-	color:blue;
-}
-
-
-
-
-
-@keyframes buttonFadeIn {
-    to {
-        opacity: 1;
-        visibility: visible;
-    }
-}
-
-
-/* Анимация появления */
-@keyframes fadeIn {
-    to {
-        opacity: 1;
-    }
-}
-
-/* Состояния кнопки "Анкета" */
-
-
-/* Оптимизация для мобильных устройств */
-
 
 

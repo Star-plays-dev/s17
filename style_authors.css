@@ -58,8 +58,7 @@ h1 {
 #text h2 {
     font-family: 'Minecraftia', sans-serif;
     text-align: center;
-	
-	
+	font-size: 30px;	
 }
 
 #calendar h2{
@@ -67,7 +66,7 @@ h1 {
     text-shadow: 0.1rem 0.1rem 0 #145a39;
 }
 
-#vdgaster{
+#wdgaster{
 	color: #cf1f33;
     text-shadow: 0.1rem 0.1rem 0 #360b10;
 }
@@ -81,5 +80,8 @@ h1 {
     text-shadow: 0.1rem 0.1rem 0 #ffffff4a;
 }
 
-
+#special_{
+	color: #baff437d;
+    text-shadow: 0.1rem 0.1rem 0 #ffffff4a;
+}
 

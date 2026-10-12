@@ -58,30 +58,38 @@ h1 {
 #text h2 {
     font-family: 'Minecraftia', sans-serif;
     text-align: center;
-	font-size: 30px;	
+	
 }
 
 #calendar h2{
 	color: #00967d;
     text-shadow: 0.1rem 0.1rem 0 #145a39;
+	font-size: 30px;
 }
 
 #wdgaster{
 	color: #cf1f33;
     text-shadow: 0.1rem 0.1rem 0 #360b10;
+	font-size: 30px;
 }
-
+#wdgaster_17{
+	color: #cf1f33;
+    text-shadow: 0.1rem 0.1rem 0 #360b10;
+		font-size: 80px;
+}
 #today{
 	color: #ffffff7d;
 	text-shadow: 0.1rem 0.1rem 0 #ffffff4a;
+	font-size: 30px;
 }
 #special{
 	color: #98ee007d;
     text-shadow: 0.1rem 0.1rem 0 #ffffff4a;
+	font-size: 30px;
 }
 
-#special1{
+#special_{
 	color: #baff437d;
     text-shadow: 0.1rem 0.1rem 0 #ffffff4a;
+	font-size: 30px;
 }
-

@@ -11,7 +11,7 @@ a {
 
 body {
 	background: #000000;
-	background: radial-gradient(circle, rgba(0, 0, 0, 1) 90%, rgba(61, 61, 61, 1));
+	background: radial-gradient(circle, rgba(0, 0, 0, 1) 40%, rgba(61, 61, 61, 1));
 	z-index: -999;
 
 }

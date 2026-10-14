@@ -1,19 +1,40 @@
 <html><head>
-  <link rel="stylesheet" href="style_authors.css">
- 
-
 
 </head><body>
 		<title>subject 17</title>
 		<link rel="stylesheet" href="style_authors.css">
 	
 	<main>
-	<div id="text" class="center">
+	<div id="text" class="center" display:none;="">
     <span id="calendar"><h2><span id="special">04</span> / 05 / 06 / 07 /
-	<a href="audio/The truth will out.ogg"><span id="special_">08</span></a> / 09 / 10 / 11 / 12 / 13 /
-	<a href="audio/12.m4a"><span id="today">14</span></a> 
-	 / 15 / 16 /
-	<a href="17.html"><span id="wdgaster"> 17</span></a></h2></span>
+	<a href="audio/The truth will out.ogg"><span id="special_">08</span></a> / 09 / 10 / 11 / 12 / 13 / 
+	<span id="today"><span id="today" onclick="openPopup()">14</span> / 15 / 16 /<a href="audio/EmptyRoom.mp3">
+	<span id="wdgaster"> 17</span></a></h2></span>
+
 	</div>
+	
+	    <div class="popup-overlay" id="popupOverlay" style="display: none;"></div>
+    <div class="popup-content" id="popupContent" style="display: none;">
+		<span id="text"><span id="calendar">
+        <h4>И снова я нахожусь в раздумьях. Полагаю, ответ мы получим очень скоро</h4>
+		<h4>Неясен лишь час, когда начнётся первый акт, но то, что ожидает нас... весьма и весьма недурно.</h4></span></span>
+        <h4><a href="audio/12.m4a">12.m4a</a></h4>
+    </div>
+	
+	
+<script>
+	function openPopup() {
+		document.getElementById("popupOverlay").style.display = "block";
+		document.getElementById("popupContent").style.display = "block";
+	}
+	
+	function closePopup() {
+		document.getElementById("popupOverlay").style.display = "none";
+		document.getElementById("popupContent").style.display = "none";
+	}
+	
+	// Закрытие при клике на оверлей
+	document.getElementById("popupOverlay").addEventListener("click", closePopup);
+</script>
 
 </main></body></html>

@@ -1,5 +1,5 @@
 
-const TARGET_DATE = new Date("2026-10-17T17:17:00+03:00").getTime();
+const TARGET_DATE = new Date("2026-11-17T17:17:00+03:00").getTime();
 
 const wdgaster_17Element = document.getElementById('wdgaster_17'); 
 
@@ -8,7 +8,7 @@ function updateTimer() {
     const difference = TARGET_DATE - now;
     if (difference <= 0) {
         // Hey, I think that's not what YOU SHOULD SEE. Please go away.
-        wdgaster_17Element.innerHTML = "But nobody came.";
+        wdgaster_17Element.innerHTML = "Hey, I think that's not what YOU SHOULD SEE. Please go away.";
         clearInterval(timerInterval);
         return;
     }

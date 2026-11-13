@@ -1,5 +1,5 @@
 
-const TARGET_DATE = new Date("2026-11-17T17:17:00+03:00").getTime();
+const TARGET_DATE = new Date("2026-11-13T17:17:00+03:00").getTime();
 
 const wdgaster_17Element = document.getElementById('wdgaster_17'); 
 
